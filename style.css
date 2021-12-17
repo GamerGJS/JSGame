@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#character{
+
+    width: 20px;
+    height: 50px;
+    background-color: sienna;
+    position: relative;
+    top: 140px;
+    border: 5px solid brown;
+    
+}
+
+#block{
+        width: 20px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+.animate{
+    animation: weeeee 500ms infinite linear;
+}
+
+@keyframes block{
+    0%{left:480px;}
+    100%{left:-40px;}
+}
+
+@keyframes weeeee{
+    0%{top: 90px;}
+    30%{top: 110px;}
+    70%{top: 130px}
+
+}
